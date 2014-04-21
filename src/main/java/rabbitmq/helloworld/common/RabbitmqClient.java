@@ -14,7 +14,7 @@ public class RabbitmqClient {
     private Connection connection = null;
     private Channel channel = null;
 
-    public Channel getChnanel() throws IOException {
+    public Channel getChannel() throws IOException {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost(RabbitmqClient.HOST);
         this.connection = factory.newConnection();

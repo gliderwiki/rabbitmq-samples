@@ -14,7 +14,7 @@ public class SendMessage {
 
     public static void main(String[] args) throws IOException {
         RabbitmqClient client = new RabbitmqClient();
-        Channel channel = client.getChnanel();
+        Channel channel = client.getChannel();
 
         // create message
         List<Message> messageList = new ArrayList<Message>();

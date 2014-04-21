@@ -4,9 +4,9 @@ package rabbitmq.helloworld.common;
  * Key, Message
  */
 public class Message {
-    public String exchange = "";
-    public String routingKey = "";
-    public String body = "";
+    public String exchange = "";        // 전달
+    public String routingKey = "";      // key
+    public String body = "";            // message
 
     public Message(String routingKey, String body) {
         this.routingKey = routingKey;

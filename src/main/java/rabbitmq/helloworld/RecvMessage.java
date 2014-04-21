@@ -15,7 +15,7 @@ public class RecvMessage {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         RabbitmqClient client = new RabbitmqClient();
-        Channel channel = client.getChnanel();
+        Channel channel = client.getChannel();
 
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
 
