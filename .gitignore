@@ -64,3 +64,6 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+rabbit-samples.imi
+workspace.xml
