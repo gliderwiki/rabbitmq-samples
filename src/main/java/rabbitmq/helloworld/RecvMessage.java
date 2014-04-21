@@ -1,11 +1,15 @@
 package rabbitmq.helloworld;
 
+
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.QueueingConsumer;
 import rabbitmq.helloworld.common.RabbitmqClient;
 
 import java.io.IOException;
 
+/**
+ * 메시지 받기.
+ */
 public class RecvMessage {
     public static final String QUEUE_NAME = SendMessage.QUEUE_NAME;
 
