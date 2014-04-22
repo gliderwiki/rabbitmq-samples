@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40558d0d-8972-4a60-a340-42cc5aff46b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/routing/publish/LogDirectPublish.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/publish/Published.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/subscribe/Subscribed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/topics/publish/TopicsPublish.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/routing/readme.txt" />
-      <change type="DELETED" beforePath="C:\IdeaProjects\vitamin\rabbitmq-samples\src\main\java\rabbitmq\fanout\Publish.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/producer/NewTask.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/producer/NewTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/readme.txt" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rabbit-samples.iws" />
@@ -28,7 +13,7 @@
     <file path="/Message.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398079145484" ignored="false" />
     <file path="/SendMessage.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398040237215" ignored="false" />
     <file path="/RecvMessage.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398040003566" ignored="false" />
-    <file path="/Dummy.txt" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398169118809" ignored="false" />
+    <file path="/Dummy.txt" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398170876482" ignored="false" />
     <file path="/.gitignore" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398054295137" ignored="false" />
     <file path="$PROJECT_DIR$/../shipping/atlassian-ide-plugin.xml" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398143467502" ignored="false" />
     <file path="/readme.txt" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398086660406" ignored="false" />
@@ -1000,7 +985,11 @@
       <created>1398087251498</created>
       <updated>1398087251498</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sample 코드 완성">
+      <created>1398170879977</created>
+      <updated>1398170879977</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1077,7 +1066,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sample 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sample 코드 완성" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1093,6 +1082,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="ignore" />
     <MESSAGE value="Sample 코드 추가" />
+    <MESSAGE value="Sample 코드 완성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
