@@ -24,6 +24,7 @@ public class RecvMessage {
         );
 
         QueueingConsumer consumer = new QueueingConsumer(channel);
+
         channel.basicConsume(QUEUE_NAME, true, consumer);
         System.out.println("# ready to receive ");
 
