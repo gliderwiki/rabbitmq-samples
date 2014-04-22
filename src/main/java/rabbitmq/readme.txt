@@ -18,7 +18,12 @@ Binding
 
 
 - Exchange
-  Publisher로부터 수신한 메시지를 적절한 큐 또는 다른 exchange로 분배하는 라우터의 기능을 한다. 각 큐나 exchange는 'Binding'을 사용해서 exchange에 바인드 되어 있고, 따라서 exchange는 수신한 메시지를 이 binding에 따라 적당한 큐나 exchange로 라우팅한다. Binding과 메시지를 매칭시키기 위한 라우팅 알고리즘을 정의한것을 Exchange type이라고 하고, exchange type은 라우팅 알고리즘의 클래스이다. 브로커는 여러개의 exchange type 인스턴스를 가질 수 있다. binding과 exchange type이 혼동될 수 있는데, exchange type은 메시지를 어떤 방법으로 라우팅 시킬지를 결정하는 것이고, binding을 이러한 방법을 이용해 실제로 어떤 메시지를 어떤 큐에 보낼지를 결정하는 라우팅 테이블이라고 할 수 있다. (아래 관련 항목 참조) 예를 들어 명함정보가 들어오면 그것을 특정 큐로 보내는 broker가 존재한다면, 명함의 사람 이름 성씨를 보고 큐를 결정하겠다는 것은 exchange type이고, 김씨는 1번큐, 박씨는 2번큐, 이씨는 3번큐로 보내겠다는 것은 binding이다.
+  Publisher로부터 수신한 메시지를 적절한 큐 또는 다른 exchange로 분배하는 라우터의 기능을 한다.
+  각 큐나 exchange는 'Binding'을 사용해서 exchange에 바인드 되어 있고, 따라서 exchange는 수신한 메시지를 이 binding에 따라 적당한 큐나 exchange로 라우팅한다.
+  Binding과 메시지를 매칭시키기 위한 라우팅 알고리즘을 정의한것을 Exchange type이라고 하고, exchange type은 라우팅 알고리즘의 클래스이다.
+  브로커는 여러개의 exchange type 인스턴스를 가질 수 있다. binding과 exchange type이 혼동될 수 있는데, exchange type은 메시지를 어떤 방법으로
+  라우팅 시킬지를 결정하는 것이고, binding을 이러한 방법을 이용해 실제로 어떤 메시지를 어떤 큐에 보낼지를 결정하는 라우팅 테이블이라고 할 수 있다.
+  예를 들어 명함정보가 들어오면 그것을 특정 큐로 보내는 broker가 존재한다면, 명함의 사람 이름 성씨를 보고 큐를 결정하겠다는 것은 exchange type이고, 김씨는 1번큐, 박씨는 2번큐, 이씨는 3번큐로 보내겠다는 것은 binding이다.
 
 - Queue
   일반적으로 알고있는 큐이다. 메모리나 디스크에 메시지를 저장하고, 그것을 consumer에게 전달하는 역할을 한다. 큐는 스스로가 관심있는 메시지 타입을 지정한 Binding을 통해 exchange에 말그대로 bind된다.
