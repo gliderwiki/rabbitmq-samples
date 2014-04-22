@@ -12,6 +12,7 @@ import java.io.IOException;
  *  In-between, it can route, buffer, and persist the messages according to rules you give it.
  *
  *  The sender will connect to RabbitMQ, send a single message, then exit.
+ *   producer에서 해야 할 일은 브로커(exchange)와 연결하고, 메시지를 보낼 큐를 설정(또는 큐를 생성)한 뒤 메시지를 브로커로 보내면 된다.
  *  Q에 메시지를 삽입하는 Producer - 로직을 P와 C로 분리하여, 오래 걸리는 작업은 C가 담당하면 사용자 입장에서의 응답속도가 빨라질 것이다.
  */
 public class Send {

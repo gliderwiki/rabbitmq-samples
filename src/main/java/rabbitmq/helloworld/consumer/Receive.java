@@ -10,6 +10,8 @@ import java.io.IOException;
 /**
  * receiver is pushed messages from RabbitMQ
  * it running to listen for messages and print them out.
+ * 큐로부터 메시지를 전달받을 consumer를 작성한다.
+ * consumer가 할 일은 브로커와 연결을 설정하고 메시지를 받아올 큐를 설정한 뒤 메시지를 받아와 처리하는 것이다.
  */
 public class Receive {
 

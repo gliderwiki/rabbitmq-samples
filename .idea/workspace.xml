@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40558d0d-8972-4a60-a340-42cc5aff46b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/routing/publish/LogDirectPublish.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/publish/Published.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/subscribe/Subscribed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/topics/publish/TopicsPublish.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/routing/readme.txt" />
+      <change type="DELETED" beforePath="C:\IdeaProjects\vitamin\rabbitmq-samples\src\main\java\rabbitmq\fanout\Publish.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/producer/NewTask.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/producer/NewTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/common/RabbitmqClient.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/common/RabbitmqClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/RecvMessage.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/RecvMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/SendMessage.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/SendMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/consumer/Worker.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/consumer/Worker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/readme.txt" afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rabbit-samples.iws" />
@@ -19,13 +28,22 @@
     <file path="/Message.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398079145484" ignored="false" />
     <file path="/SendMessage.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398040237215" ignored="false" />
     <file path="/RecvMessage.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398040003566" ignored="false" />
-    <file path="/Dummy.txt" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398143467502" ignored="false" />
+    <file path="/Dummy.txt" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398169118809" ignored="false" />
     <file path="/.gitignore" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398054295137" ignored="false" />
     <file path="$PROJECT_DIR$/../shipping/atlassian-ide-plugin.xml" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398143467502" ignored="false" />
     <file path="/readme.txt" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398086660406" ignored="false" />
-    <file path="/NewTask.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398155607959" ignored="false" />
+    <file path="/NewTask.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398170844355" ignored="false" />
     <file path="/Worker.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398080517982" ignored="false" />
-    <file path="$PROJECT_DIR$/../vitamin/atlassian-ide-plugin.xml" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398156409618" ignored="false" />
+    <file path="$PROJECT_DIR$/../vitamin/atlassian-ide-plugin.xml" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398170827869" ignored="false" />
+    <file path="/fragment.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398157243296" ignored="false" />
+    <file path="/Subscribe.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398157341283" ignored="false" />
+    <file path="/Publish.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398157366281" ignored="false" />
+    <file path="/Subscribed.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398157707749" ignored="false" />
+    <file path="/LogDirectPublish.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398166962933" ignored="false" />
+    <file path="/ReceiveLog1.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398169871927" ignored="false" />
+    <file path="/ReceiveLog2.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398165949603" ignored="false" />
+    <file path="/TopicsPublish.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398170023022" ignored="false" />
+    <file path="$PROJECT_DIR$/../../workspace/coupang/atlassian-ide-plugin.xml" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398170827869" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +58,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -76,7 +95,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -89,7 +107,7 @@
       <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/common/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="11" selection-start="229" selection-end="282" vertical-scroll-proportion="0.0">
+            <state line="15" column="11" selection-start="353" selection-end="423" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,19 +131,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="34" selection-start="165" selection-end="165" vertical-scroll-proportion="0.08777969">
+            <state line="3" column="34" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewTask.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Published.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/fanout/publish/Published.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="44" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/routing/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReceiveLog1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="40" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReceiveLog2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subscribed.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/fanout/subscribe/Subscribed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/fanout/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="38" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewTask.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/producer/NewTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="9" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0">
+            <state line="23" column="68" selection-start="726" selection-end="726" vertical-scroll-proportion="0.5271318">
               <folding />
             </state>
           </provider>
@@ -137,7 +217,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="74" selection-start="537" selection-end="537" vertical-scroll-proportion="-7.8461537">
+            <state line="12" column="74" selection-start="537" selection-end="537" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -155,7 +235,7 @@
       <file leaf-file-name="Send.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="22" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0">
+            <state line="55" column="27" selection-start="1911" selection-end="1955" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,7 +244,7 @@
       <file leaf-file-name="SendMessage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/SendMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="64" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -173,8 +253,52 @@
       <file leaf-file-name="Receive.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="56" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+            <state line="21" column="40" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicsPublish.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/topics/publish/TopicsPublish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="44" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogDirectPublish.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/routing/publish/LogDirectPublish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="1397" selection-end="1398" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReceiveLog1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="31" selection-start="901" selection-end="906" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReceiveLog2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="42" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,19 +330,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/common/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/readme.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/readme.txt" />
         <option value="$PROJECT_DIR$/src/main/java/rabbitmq/readme.txt" />
         <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/common/RabbitmqClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/SendMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/producer/NewTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/RecvMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java" />
         <option value="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/consumer/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/Publish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/publish/Publish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/subscribe/Subscribe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/subscribe/Subscribed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/readme.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/fanout/publish/Published.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/routing/publish/LogDirectPublish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/routing/readme.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/topics/publish/TopicsPublish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/producer/NewTask.java" />
       </list>
     </option>
   </component>
@@ -278,6 +410,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,39 +451,305 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="producer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subscribe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subscribe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="producer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="preferences.general" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace/coupang" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.NewTask">
-    <configuration default="false" name="RecvMessage" type="Application" factoryName="Application" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="rabbitmq.fanout.publish" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TopicsPublish">
+    <configuration default="false" name="Published" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rabbitmq.helloworld.*" />
+          <option name="PATTERN" value="rabbitmq.fanout.publish.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="rabbitmq.helloworld.RecvMessage" />
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.fanout.publish.Published" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -364,14 +764,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SendMessage" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="LogDirectPublish" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rabbitmq.helloworld.*" />
+          <option name="PATTERN" value="rabbitmq.routing.publish.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="rabbitmq.helloworld.SendMessage" />
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.routing.publish.LogDirectPublish" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -386,14 +786,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="NewTask" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="ReceiveLog2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rabbitmq.workqueue.producer.*" />
+          <option name="PATTERN" value="rabbitmq.topics.subscribe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="rabbitmq.workqueue.producer.NewTask" />
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.topics.subscribe.ReceiveLog2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -408,14 +808,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Worker" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="ReceiveLog1" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rabbitmq.workqueue.consumer.*" />
+          <option name="PATTERN" value="rabbitmq.topics.subscribe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="rabbitmq.workqueue.consumer.Worker" />
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.topics.subscribe.ReceiveLog1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -430,14 +830,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Receive" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="TopicsPublish" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rabbitmq.helloworld.consumer.*" />
+          <option name="PATTERN" value="rabbitmq.topics.publish.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="rabbitmq.helloworld.consumer.Receive" />
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.topics.publish.TopicsPublish" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -466,19 +866,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -505,6 +892,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -544,19 +944,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RecvMessage" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SendMessage" />
-      <item index="2" class="java.lang.String" itemvalue="Application.NewTask" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Worker" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Receive" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Published" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LogDirectPublish" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReceiveLog2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReceiveLog1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TopicsPublish" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NewTask" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SendMessage" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Worker" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Receive" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RecvMessage" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TopicsPublish" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReceiveLog2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReceiveLog1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LogDirectPublish" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ReceiveLog2" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -607,10 +1007,11 @@
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3877551" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38678327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -623,15 +1024,14 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13233724" sideWeight="0.6122449" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1339381" sideWeight="0.6851312" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20277481" sideWeight="0.6122449" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20277481" sideWeight="0.6132167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6132167" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3148688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -721,67 +1121,56 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/common/Message.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.3.0/amqp-client-3.3.0.jar!/com/rabbitmq/client/Channel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/SendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="27" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/RecvMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="11" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0">
+        <state line="87" column="42" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.3462783">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+        <state line="21" column="40" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/readme.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+        <state line="12" column="74" selection-start="537" selection-end="537" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/fanout/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="4" column="38" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-samples.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/fanout/subscribe/Subscribed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="35" column="0" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/routing/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="892" selection-end="893" vertical-scroll-proportion="0.20264317" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/common/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="229" selection-end="282" vertical-scroll-proportion="0.0">
+        <state line="3" column="34" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -793,33 +1182,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/readme.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/RecvMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="74" selection-start="537" selection-end="537" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/consumer/Receive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="56" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="22" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/SendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="64" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+        <state line="22" column="17" selection-start="610" selection-end="615" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -831,34 +1196,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/RecvMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/fanout/publish/Published.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="610" selection-end="615" vertical-scroll-proportion="0.0">
+        <state line="13" column="44" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/routing/subscribe/ReceiveLog1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="40" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="901" selection-end="906" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/topics/subscribe/ReceiveLog2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/common/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="353" selection-end="423" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/consumer/Worker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/topics/publish/TopicsPublish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
+        <state line="23" column="44" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/routing/publish/LogDirectPublish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1397" selection-end="1398" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/producer/Send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="27" selection-start="1911" selection-end="1955" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/helloworld/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/producer/NewTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="9" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0">
+        <state line="23" column="68" selection-start="726" selection-end="726" vertical-scroll-proportion="0.5271318">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rabbitmq/workqueue/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="165" selection-end="165" vertical-scroll-proportion="0.08777969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rabbit-samples</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.rabbitmq:amqp-client:3.3.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

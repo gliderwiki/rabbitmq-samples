@@ -1,4 +1,4 @@
-package rabbitmq.fanout;
+package rabbitmq.fanout.publish;
 
 import com.rabbitmq.client.Channel;
 import rabbitmq.helloworld.common.Message;
@@ -10,8 +10,11 @@ import java.util.List;
 
 /**
  * publish / subscribe
+ * A producer is a user application that sends messages.
+ * A queue is a buffer that stores messages.
+ * A consumer is a user application that receives messages.
  */
-public class Publish {
+public class Published {
     public static String EXCHANGE = "logs";
     public static String EXCHANGE_TYPE = "fanout";
 
@@ -44,7 +47,6 @@ public class Publish {
             } catch ( InterruptedException e) {
                 e.printStackTrace();
             }
-
         }
 
         client.close();

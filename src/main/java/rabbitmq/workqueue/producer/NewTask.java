@@ -21,7 +21,7 @@ public class NewTask {
         boolean durable = true;
 
         /**
-         * Queue를 만드는 것을 declare라고 하며, 애플리케이션 코드에서도 쉽게 만들 수 있다.
+         * Queue는  queueDeclare를 통해서 생성 하며, 애플리케이션 코드에서도 쉽게 만들 수 있다.
          * 만약 해당 큐가 이미 존재하고 있다면, 다시 queue를 만들지 않고, queue가 없을 경우에만 만든다.
          */
         channel.queueDeclare(QUEUE_NAME, durable, false, false, null);
