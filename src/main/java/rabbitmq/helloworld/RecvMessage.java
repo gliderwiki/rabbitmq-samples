@@ -20,7 +20,7 @@ public class RecvMessage {
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
 
         System.out.println(
-                "[***] Waiting for Message. to Exit presss CTRL + C "
+                "[***] Waiting for Message."
         );
 
         QueueingConsumer consumer = new QueueingConsumer(channel);

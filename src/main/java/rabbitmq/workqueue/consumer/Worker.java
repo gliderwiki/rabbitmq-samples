@@ -15,11 +15,10 @@ public class Worker {
         RabbitmqClient client = new RabbitmqClient();
         Channel channel = client.getChannel();
 
-
         boolean durable = true;
 
         channel.queueDeclare(QUEUE_NAME, durable, false, false, null);
-        System.out.println(" [x] Waiting for Messages. To exit press CTRL+C");
+        System.out.println(" [***] Waiting for Messages.");
 
         int prefetchCount = 1;
 

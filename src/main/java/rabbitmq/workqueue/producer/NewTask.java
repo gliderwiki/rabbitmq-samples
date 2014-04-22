@@ -27,6 +27,7 @@ public class NewTask {
         channel.queueDeclare(QUEUE_NAME, durable, false, false, null);
         
         // create messages
+        System.out.println("## Create Message !");
         List<Message> messageList = new ArrayList<>();
         for(int i = 0; i < 10 ;  i++) {
             messageList.add(new Message(QUEUE_NAME, "task [" + i + "]" + repeatChar(".", i)));
@@ -36,7 +37,7 @@ public class NewTask {
 
         for(Message m : messageList) {
             channel.basicPublish(m.exchange, m.routingKey, MessageProperties.PERSISTENT_TEXT_PLAIN, m.body.getBytes());
-            System.out.println(" [x] Sent :" + m.toString());
+            System.out.println(" [x] Sent : " + m.toString());
         }
 
         client.close();

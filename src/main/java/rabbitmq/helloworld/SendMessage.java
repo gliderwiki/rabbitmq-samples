@@ -20,7 +20,7 @@ public class SendMessage {
         List<Message> messageList = new ArrayList<Message>();
 
         for(int i = 0; i < 10; i++) {
-            messageList.add(new Message(QUEUE_NAME, " Hello World!! [" +i+"]"));
+            messageList.add(new Message(QUEUE_NAME, "Hello World [" +i+"]"));
         }
 
         System.out.println("## Ready to Send");
@@ -32,10 +32,6 @@ public class SendMessage {
             System.out.println("Sent ... [" + index + "] = " + msg.toString());
 
         }
-        try {
-            client.close();
-        } catch (Exception e) {
-            e.getMessage();
-        }
+        client.close();
     }
 }

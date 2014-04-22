@@ -25,10 +25,10 @@ public class RabbitmqClient {
 
     public void close() throws IOException {
 
-        if(this.connection != null) {
+        if(this.connection.isOpen()) {
             this.connection.close();
         }
-        if(this.channel != null) {
+        if(this.channel.isOpen()) {
             this.channel.close();
         }
 

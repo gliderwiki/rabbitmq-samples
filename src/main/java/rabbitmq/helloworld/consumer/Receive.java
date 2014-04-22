@@ -25,7 +25,7 @@ public class Receive {
         Channel channel  = connection.createChannel();
 
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
-        System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
+        System.out.println(" [***] Waiting for messages.");
 
         /**
          * QueueingConsumer.nextDelivery() blocks until another message has been delivered from the server.
