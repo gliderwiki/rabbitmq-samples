@@ -49,7 +49,6 @@
     <file path="/ReceiveLog1.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398169871927" ignored="false" />
     <file path="/ReceiveLog2.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398165949603" ignored="false" />
     <file path="/TopicsPublish.java" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398170023022" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/coupang/atlassian-ide-plugin.xml" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398171629647" ignored="false" />
     <file path="$PROJECT_DIR$/../spring-rabbitmq-sample/atlassian-ide-plugin.xml" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398232491458" ignored="false" />
     <file path="$PROJECT_DIR$/../rabbitmq-spring-samples/atlassian-ide-plugin.xml" changelist="40558d0d-8972-4a60-a340-42cc5aff46b3" time="1398232491458" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
