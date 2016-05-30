@@ -25,6 +25,8 @@
         <module name="rabbit-samples" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbit-samples" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
